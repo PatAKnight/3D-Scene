@@ -1,0 +1,37 @@
+﻿  createCup.cpp
+  createPen.cpp
+  createClip.cpp
+  createPlane.cpp
+  lightSource.cpp
+  main.cpp
+C:\Users\pknig\source\repos\OpenGL_Scene\Module5Milestone\main.cpp(149,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pknig\source\repos\OpenGL_Scene\Module5Milestone\main.cpp(465,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pknig\source\repos\OpenGL_Scene\Module5Milestone\main.cpp(466,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pknig\source\repos\OpenGL_Scene\Module5Milestone\main.cpp(470,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pknig\source\repos\OpenGL_Scene\Module5Milestone\main.cpp(471,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pknig\source\repos\OpenGL_Scene\Module5Milestone\main.cpp(473,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pknig\source\repos\OpenGL_Scene\Module5Milestone\main.cpp(474,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pknig\source\repos\OpenGL_Scene\Module5Milestone\main.cpp(492,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  shaderClass.cpp
+  Generating Code...
+C:\Users\pknig\source\repos\OpenGL_Scene\Module5Milestone\main.cpp(234): warning C4715: 'initialize': not all control paths return a value
+  glad.c
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "bool __cdecl initialize(int,char * * const,struct GLFWwindow * *)" (?initialize@@YA_NHQEAPEADPEAPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "bool __cdecl initialize(int,char * * const,struct GLFWwindow * *)" (?initialize@@YA_NHQEAPEADPEAPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "bool __cdecl initialize(int,char * * const,struct GLFWwindow * *)" (?initialize@@YA_NHQEAPEADPEAPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "bool __cdecl initialize(int,char * * const,struct GLFWwindow * *)" (?initialize@@YA_NHQEAPEADPEAPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function "bool __cdecl initialize(int,char * * const,struct GLFWwindow * *)" (?initialize@@YA_NHQEAPEADPEAPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetMouseButtonCallback referenced in function "bool __cdecl initialize(int,char * * const,struct GLFWwindow * *)" (?initialize@@YA_NHQEAPEADPEAPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function "bool __cdecl initialize(int,char * * const,struct GLFWwindow * *)" (?initialize@@YA_NHQEAPEADPEAPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetScrollCallback referenced in function "bool __cdecl initialize(int,char * * const,struct GLFWwindow * *)" (?initialize@@YA_NHQEAPEADPEAPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "bool __cdecl initialize(int,char * * const,struct GLFWwindow * *)" (?initialize@@YA_NHQEAPEADPEAPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "void __cdecl render(class Shader,class Shader,class Pen,class Plane,class Clip,class Cup,class Light)" (?render@@YAXVShader@@0VPen@@VPlane@@VClip@@VCup@@VLight@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function "bool __cdecl initialize(int,char * * const,struct GLFWwindow * *)" (?initialize@@YA_NHQEAPEADPEAPEAUGLFWwindow@@@Z)
+C:\OpenGL\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenGL\GLEW\lib\Release\Win32\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\pknig\source\repos\OpenGL_Scene\x64\Debug\OpenGLScene.exe : fatal error LNK1120: 16 unresolved externals
