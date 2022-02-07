@@ -1,4 +1,12 @@
-# CS330
+# 3D-Scene
+
+In my CS 330 course I was tasked with working on a 3D scene. This project showcases my ability to incorporate third party libraries into my work. The 3D scene is written in C++ utilizing the OpenGL library. OpenGL is a library that can be used to render 2D and 3D graphics. OpenGL accesses the graphics card of the computer that I was working on to render the scene. 
+
+The 3D scene has several simple shapes that are combined to create complex shapes. The simple shapes that are incorporated into the scene are planes, cylinders, rectangles, and tori. The complex shapes within the scene are a cup, pen, Gameboy, Gameboy cartrige, and binder. Using matrices that containted the coordinates of the shapes, I placed these complex shapes around the scene. Matrices multiplaction also was used to manipulate the shapes in the form of rotation and translation. Within the scene is a light source that allows for a more dynamic scene. Using vector math, the shapes are lit correctly by the light source. Finally, the scene has camera controls that allow the user to move around the scene. The camera controls use the WASD keys to travese the scene.
+
+
+
+# Questions from the course
 1.	How do I approach designing software?
 o	What new design skills has your work on the project helped you to craft?
 o	What design process did you follow for your project work?
