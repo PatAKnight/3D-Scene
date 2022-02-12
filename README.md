@@ -4,6 +4,10 @@ In my CS 330 course I was tasked with working on a 3D scene. This project showca
 
 The 3D scene has several simple shapes that are combined to create complex shapes. The simple shapes that are incorporated into the scene are planes, cylinders, rectangles, and tori. The complex shapes within the scene are a cup, pen, Gameboy, Gameboy cartrige, and binder. Using matrices that containted the coordinates of the shapes, I placed these complex shapes around the scene. Matrices multiplaction also was used to manipulate the shapes in the form of rotation and translation. Within the scene is a light source that allows for a more dynamic scene. Using vector math, the shapes are lit correctly by the light source. Finally, the scene has camera controls that allow the user to move around the scene. The camera controls use the WASD keys to travese the scene.
 
+![Screenshot 2022-02-12 171059](https://user-images.githubusercontent.com/82788581/153730970-af644a2c-a350-46bc-b9ff-6197d84cc321.png)
+
+
+![Screenshot 2022-02-12 171132](https://user-images.githubusercontent.com/82788581/153730972-7be02a1c-5011-4b4c-b5bc-ccf093918723.png)
 
 
 # Questions from the course
